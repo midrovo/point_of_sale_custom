@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template id="template" xml:space="preserve">
+    
+    <t t-name="partner_details_edit" t-inherit="PartnerDetailsEdit" t-inherit-mode="extension">
+        
+        <xpath expr="//span[text()='Tax ID']" position="replace">
+            <span class="label">RUC/Cédula</span>
+        </xpath>
+
+    </t>
+    
+</template>
